@@ -13,7 +13,7 @@ public class LoginFx extends Application {
     }
 
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("HelloWorld.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("jdemon.fxml"));
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
 
